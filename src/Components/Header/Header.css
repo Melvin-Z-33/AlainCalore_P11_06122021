@@ -4,14 +4,20 @@ header {
   height: 68px;
   top: 40px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
 }
 
-img {
-  width: 210.32px;
+header img {
+  width: 110.32px;
   height: 68px;
   left: 100px;
 }
@@ -21,20 +27,25 @@ nav {
   width: 100%;
   max-width: 309px;
   height: 68px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-}
-
-img {
-  width: 100px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 ul {
   list-style: none;
   color: #ff6060;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
 }
 
@@ -65,5 +76,4 @@ nav-items {
   font-weight: 700;
   font-style: normal;
 }
-
 /*# sourceMappingURL=Header.css.map */

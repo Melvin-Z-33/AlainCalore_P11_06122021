@@ -5,17 +5,16 @@ header {
 	max-width: 1240px;
 	height: 68px;
 	top: 40px;
-    margin: 0 auto;
+	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	position: relative;
-}
-
-img {
-	width: 210.32px;
-	height: 68px;
-	left: 100px;
+	img {
+		width: 110.32px;
+		height: 68px;
+		left: 100px;
+	}
 }
 
 nav {
@@ -25,10 +24,6 @@ nav {
 	height: 68px;
 	display: flex;
 	justify-content: space-around;
-}
-
-img {
-	width: 100px;
 }
 
 ul {
@@ -47,7 +42,7 @@ nav-items {
 
 .nav-link {
 	//color: #ff6060;
-    color: $color-primary;
+	color: $color-primary;
 	text-decoration: none;
 	font-size: 24px;
 	text-align: center;

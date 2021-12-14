@@ -2,10 +2,15 @@ import React from 'react';
 import banner from '../../assets/banner/IMG.png';
 import './Banner.css';
 
-export default function Banner() {
-	return (
-		<>
-			<img class="banner_img" src={banner} alt="" />;
-		</>
-	);
+class Banner extends React.Component {
+	render() {
+		return (
+			<div className="banner">
+				{/* <h1 className="banner-title">{this.props.title}</h1> */}
+				<img src={banner} alt=""></img>
+			</div>
+		);
+	}
 }
+
+export default Banner;

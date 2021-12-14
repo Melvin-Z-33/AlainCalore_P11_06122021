@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":["Banner.scss"],"names":[],"mappings":"AAAA;EACC","file":"Banner.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EAEP,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,QAAQ;EAChB,aAAa,EAAE,IAAI;EACnB,QAAQ,EAAE,MAAM;EAChB,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,KAAK;EACd,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;CACvB",
+    "sources": [
+        "Banner.scss"
+    ],
+    "names": [],
+    "file": "Banner.css"
+}
